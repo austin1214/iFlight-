@@ -21,6 +21,12 @@
 		C452378818900DAF009D077A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C452376A18900DAF009D077A /* UIKit.framework */; };
 		C452379018900DAF009D077A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C452378E18900DAF009D077A /* InfoPlist.strings */; };
 		C452379218900DAF009D077A /* iFlightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C452379118900DAF009D077A /* iFlightTests.m */; };
+		C452379F18900DC6009D077A /* GameBackGround.png in Resources */ = {isa = PBXBuildFile; fileRef = C452379B18900DC6009D077A /* GameBackGround.png */; };
+		C45237A018900DC6009D077A /* HeliDown.png in Resources */ = {isa = PBXBuildFile; fileRef = C452379C18900DC6009D077A /* HeliDown.png */; };
+		C45237A118900DC6009D077A /* Obstacle.png in Resources */ = {isa = PBXBuildFile; fileRef = C452379D18900DC6009D077A /* Obstacle.png */; };
+		C45237A218900DC6009D077A /* HeliUp.png in Resources */ = {isa = PBXBuildFile; fileRef = C452379E18900DC6009D077A /* HeliUp.png */; };
+		C4D0C2B218AB3D4400D079B2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4D0C2B118AB3D4400D079B2 /* Default-568h@2x.png */; };
+		C4D0C2B418AB3FCD00D079B2 /* loading 3.5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4D0C2B318AB3FCD00D079B2 /* loading 3.5.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,12 @@
 		C452378D18900DAF009D077A /* iFlightTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iFlightTests-Info.plist"; sourceTree = "<group>"; };
 		C452378F18900DAF009D077A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C452379118900DAF009D077A /* iFlightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iFlightTests.m; sourceTree = "<group>"; };
+		C452379B18900DC6009D077A /* GameBackGround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameBackGround.png; sourceTree = "<group>"; };
+		C452379C18900DC6009D077A /* HeliDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HeliDown.png; sourceTree = "<group>"; };
+		C452379D18900DC6009D077A /* Obstacle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Obstacle.png; sourceTree = "<group>"; };
+		C452379E18900DC6009D077A /* HeliUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HeliUp.png; sourceTree = "<group>"; };
+		C4D0C2B118AB3D4400D079B2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C4D0C2B318AB3FCD00D079B2 /* loading 3.5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "loading 3.5.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +94,7 @@
 		C452375A18900DAF009D077A = {
 			isa = PBXGroup;
 			children = (
+				C4D0C2B118AB3D4400D079B2 /* Default-568h@2x.png */,
 				C452376C18900DAF009D077A /* iFlight */,
 				C452378B18900DAF009D077A /* iFlightTests */,
 				C452376518900DAF009D077A /* Frameworks */,
@@ -126,6 +139,11 @@
 		C452376D18900DAF009D077A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C452379C18900DC6009D077A /* HeliDown.png */,
+				C4D0C2B318AB3FCD00D079B2 /* loading 3.5.jpg */,
+				C452379B18900DC6009D077A /* GameBackGround.png */,
+				C452379D18900DC6009D077A /* Obstacle.png */,
+				C452379E18900DC6009D077A /* HeliUp.png */,
 				C452376E18900DAF009D077A /* iFlight-Info.plist */,
 				C452376F18900DAF009D077A /* InfoPlist.strings */,
 				C452377218900DAF009D077A /* main.m */,
@@ -199,6 +217,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Austin Brogdon";
 				TargetAttributes = {
+					C452376218900DAF009D077A = {
+						DevelopmentTeam = LU225FHT46;
+					};
 					C452378318900DAF009D077A = {
 						TestTargetID = C452376218900DAF009D077A;
 					};
@@ -230,7 +251,13 @@
 			files = (
 				C452377F18900DAF009D077A /* Images.xcassets in Resources */,
 				C452377118900DAF009D077A /* InfoPlist.strings in Resources */,
+				C45237A118900DC6009D077A /* Obstacle.png in Resources */,
+				C45237A218900DC6009D077A /* HeliUp.png in Resources */,
+				C4D0C2B218AB3D4400D079B2 /* Default-568h@2x.png in Resources */,
+				C4D0C2B418AB3FCD00D079B2 /* loading 3.5.jpg in Resources */,
+				C45237A018900DC6009D077A /* HeliDown.png in Resources */,
 				C452377A18900DAF009D077A /* Main.storyboard in Resources */,
+				C452379F18900DC6009D077A /* GameBackGround.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,12 +403,15 @@
 		C452379618900DAF009D077A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-3";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Charles Brogdon (LU225FHT46)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Charles Brogdon (LU225FHT46)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iFlight/iFlight-Prefix.pch";
 				INFOPLIST_FILE = "iFlight/iFlight-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "00ADCD27-C913-45B7-A744-26F2E46F2BC8";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -389,12 +419,15 @@
 		C452379718900DAF009D077A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-3";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Charles Brogdon (LU225FHT46)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Charles Brogdon (LU225FHT46)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iFlight/iFlight-Prefix.pch";
 				INFOPLIST_FILE = "iFlight/iFlight-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "00ADCD27-C913-45B7-A744-26F2E46F2BC8";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -460,6 +493,7 @@
 				C452379718900DAF009D077A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C452379818900DAF009D077A /* Build configuration list for PBXNativeTarget "iFlightTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +502,7 @@
 				C452379A18900DAF009D077A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
